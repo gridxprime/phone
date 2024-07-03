@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body{
+  background: #3f3f3f;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  
+}
+
+
+
+
+.phone{
+
+  min-height: 80vh;
+  min-width: 50vmin;
+  background: blue;
+  position: relative;
+  border-radius: 2rem;
+  padding: 3px;
+  overflow: hidden;
+
+}
+
+.phone__case{
+  background: #000;
+  width: 100%;
+  min-height: inherit;
+  border-radius: inherit;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: inherit;
+}
+
+.phone__screen{
+  background: url('./assets/img/bg2.jpg');
+  background-size: cover;
+  background-position: 30%;
+  width: 100%;
+min-height: inherit;
+border-radius: inherit;
+overflow: inherit;
+padding: 30px 0 0;
+position: relative;
+height: 100%;}
+
+.phone__space{
+  min-height: 100%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  position: absolute;
+}
+
+.right{
+  display: flex;
+  gap: 1vmin;
+  align-items: center;
+}
+
+.mobile__connection{
+  display: flex;
+  gap: 3px;
+  align-items: flex-end;
+}
+
+
+.connection__element{
+  width: 2px;
+  background: #fff;
+}
+
+.connection__element1{
+  height: 2px;
+}
+
+.connection__element2{
+  height: 4px;
+}
+.connection__element3{
+  height: 6px;
+}
+.connection__element4{
+  height: 8px;
+}
+
+
+.acc{
+  width: 20px;
+  height: 10px;
+  background: #5f5f5f;
+}
+
+.acc__element{
+  width: 75%;
+  height: 100%;
+  background: #fff;
+  display: block;
+}
+
+
+.call__app{
+  
+  min-height: 77vh;
+  bottom: 1%;
+
+  width: 100%;
+  background: #4f4f4f;
+  display: block;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
