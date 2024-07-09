@@ -7,6 +7,7 @@ import GaleryIcon from './apps/AppsIcons/galery.png'
 import NewsIcon from './apps/AppsIcons/news.png'
 import WeatherIcon from './apps/AppsIcons/weather.png'
 import BrowserIcon from './apps/AppsIcons/browser.png'
+import CallIcon from './apps/AppsIcons/call.png'
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
           <li></li>
           <Link style={{textDecoration: 'none', color: 'inherit'}} to='browser'><li><img src={BrowserIcon} alt="" />Browser</li></Link>
           <li></li>
-          <li></li>
+          <Link  to='call' style={{textDecoration: 'none', color: 'inherit'}}> <li><img src={CallIcon} alt="" />Phone</li></Link>
         </ul>
       </section>
     </>
