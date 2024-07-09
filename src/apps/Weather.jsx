@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Galery() {
+function Weather() {
   return (
     <section>
-      Galery
+      <span>Weather</span>
     </section>
   )
 }
 
-export default Galery
+export default Weather

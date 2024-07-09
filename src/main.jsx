@@ -9,6 +9,7 @@ import Galery from './apps/Galery'
 import UnkownPage from './apps/UnkownPage'
 import News from './apps/News'
 import Browser from './apps/Browser'
+import Weather from './apps/Weather'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path='galery' element={<Galery></Galery>} />
             <Route path='news' element={<News></News>} />
             <Route path='browser' element={<Browser></Browser>} />
+            <Route path='weather' element={<Weather></Weather>} />
             <Route path='*' element={<UnkownPage/>} />
         </Route>
     </Routes>
