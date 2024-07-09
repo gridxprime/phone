@@ -1,8 +1,7 @@
-import React from 'react'
-import { useEffect, useState } from 'react';
-import '../App.css'
+import React, {useState, useEffect} from 'react'
+import { Outlet, Link } from 'react-router-dom'
 
-function Header() {
+const Layout = () => {
 
     const [time, setTime] = useState(new Date());
 
@@ -22,14 +21,14 @@ function Header() {
   
   
     const timeString = `${hours}:${minutes}`
-  
+
 
   return (
     <>
-    
-                <header className='header'>
-                   <span>{hours}:{minutes}</span>
-                   <div className="right">
+      <section className='phone'>
+        <header>
+            <span>{hours}:{minutes}</span>
+            <div className="right">
                     <div className="mobile__connection">
                         <span className="connection__element1 connection__element"></span>
                         <span className="connection__element2 connection__element"></span>
@@ -46,9 +45,16 @@ function Header() {
                         <span className="acc__element"></span>
                     </div>
                    </div>
-                </header>
+        </header>
+        <Outlet>
+
+        </Outlet>
+        <footer>
+           <Link to='/'> <button className='go__home'></button></Link>
+        </footer>
+      </section>
     </>
   )
 }
 
-export default Header
+export default Layout
