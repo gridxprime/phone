@@ -5,8 +5,7 @@ function Browser() {
     <>
     
 <section>
-
-<span>Browser</span>
+  <span>Browser</span>
 
 </section>
 
