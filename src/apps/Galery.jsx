@@ -6,7 +6,7 @@ import Image3 from './GalleryImages/image3.jpg'
 
 function Galery() {
   return (
-    <section>
+    <section className='galery'>
       <span>Galery</span>
       <div className="galery__scroll">
         <img src={Image1} alt="" />
