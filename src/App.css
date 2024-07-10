@@ -171,6 +171,10 @@ section .calculator{
   min-height: 100%;
 }
 
+.calc span{
+  cursor: pointer;
+}
+
 .news__item{
   margin: 20px 0;
 }
@@ -204,6 +208,10 @@ section .calculator{
 .ul__call{
   width: 40%;
   transform: translateX(80%);
+}
+
+.galery{
+  height: 90%;
 }
 
 .galery__scroll{

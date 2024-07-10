@@ -1,4 +1,5 @@
 import './App.css';
+import './media.css'
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CalendarIcon from './apps/AppsIcons/calendar.png'
