@@ -228,3 +228,26 @@ section .calculator{
   min-width: 100%;
   scroll-snap-align: center;
 }
+
+
+.browser__section{
+  height: 100%;
+  margin: 20px 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+.browser__section input{
+  outline: none;
+  padding: 5px;
+  border: none;
+}
+
+.browser__section iframe{
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+ border: none;
+}

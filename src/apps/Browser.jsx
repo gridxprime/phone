@@ -5,10 +5,11 @@ function Browser() {
   return (
     <>
     
-<section>
+<section className='browser__section'>
 
 <span>Browser</span>
-<iframe src="https://www.google.ru" style={{width: '450px', height: '500px'}} ></iframe>
+<input type="text" />
+<iframe src="https://www.example.com" style={{width: '100%', height: '100%'}} ></iframe>
 </section>
 
     </>
