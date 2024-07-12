@@ -162,6 +162,10 @@ section .calculator{
 
 section .calculator span{
   user-select: none;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
 }
 
 .value{
