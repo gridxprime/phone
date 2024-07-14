@@ -10,6 +10,7 @@ import WeatherIcon from './apps/AppsIcons/weather.png'
 import BrowserIcon from './apps/AppsIcons/browser.png'
 import CallIcon from './apps/AppsIcons/call.png'
 import NotesIcon from './apps/AppsIcons/notes.png'
+import GithubIcon from './apps/AppsIcons/github.png'
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
           <Link style={{textDecoration: 'none', color: 'inherit'}} to='weather'><li><img src={WeatherIcon} alt="" />Weather</li></Link>
           <Link style={{textDecoration: 'none', color: 'inherit'}} to='notes'><li><img src={NotesIcon} alt="" />Notes</li></Link>
           <Link style={{textDecoration: 'none', color: 'inherit'}} to='browser'><li><img src={BrowserIcon} alt="" />Browser</li></Link>
-          <li></li>
+          <a target='_blank' style={{textDecoration: 'none', color: 'inherit'}} href="https://www.github.com/gridxprime"> <li><img src={GithubIcon} alt="" />Github</li></a>
           <Link  to='call' style={{textDecoration: 'none', color: 'inherit'}}> <li><img src={CallIcon} alt="" />Phone</li></Link>
         </ul>
       </section>
